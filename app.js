@@ -7,7 +7,7 @@ const cloudinary = require("cloudinary").v2;
 const cors = require("cors")
 const app = express()
 
-//  this is 
+
 app.use(fileUpload({
     useTempFiles:true
 }))
